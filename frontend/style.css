@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+.my-container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    background-color: rgb(250, 248, 248);
+}
+
+.title {
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-new-student{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.spinner-buttons button:hover {
+    background: #ced4da;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 35px;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: gray;
+    z-index: 10;
+}
+
+.table-student-profile{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: gray;
+}
+
+.search-box {
+    position: relative;
+    width: 320px;
+    display: flex;
+    align-items: center; /* IMPORTANT */
+}
+
+@media (max-width: 576px) {
+    .search-box {
+        width: 100%;
+    }
+}
+
+.search-box input {
+    height: 38px;
+    padding-right: 35px;
+    margin: 0;
+}
